@@ -1,0 +1,75 @@
+@font-face{
+    font-family: "Freshman";
+    src: url(../fonts/Freshman.woff);
+}
+body, html{
+    margin:0;
+    font: 20px "Freshman";
+    color: #111;
+    height: 100%;
+    letter-spacing: 2px;
+}
+
+.conteudo{
+    color: #fff;
+    background-color: #111;
+    text-align: center;
+    padding: 40px 60px;
+}
+
+h3{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+/* EFEITO PARALLAX */
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5{
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa1{
+    background-image: url(../imagens/topo-america.jpg);
+}
+
+.caixa2{
+    background-image: url(../imagens/libertadores.jpg);
+}
+
+.caixa3{
+    background-image: url(../imagens/gol.jpg);
+}
+
+.caixa4{
+    background-image: url(../imagens/brasileiro.jpg);
+}
+
+.caixa5{
+    background-image: url(../imagens/conte-comigo.jpg);
+}
+
+.conteudo-titulo{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo{
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}

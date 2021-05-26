@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Freshman';
+    src: url('Freshman.woff2') format('woff2'),
+        url('Freshman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
